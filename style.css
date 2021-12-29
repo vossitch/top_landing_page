@@ -1,0 +1,177 @@
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*border: 2px solid orange;*/
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #807267;
+}
+
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background: #fff7d6;
+    /*border: 2px solid orange;*/
+}
+
+.header {
+    background: #fff7d6;
+    padding-bottom: 30px;
+    }
+
+.left-header {
+    margin: 5px;
+}
+
+.right-header {
+    display: flex;
+    list-style: none;
+    align-content: flex-end;
+    margin: 10px;
+    gap: 20px;
+    color: #807267;
+}
+
+.footer {
+    justify-content: center;
+    margin-top: 50px;
+    }
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid orange;*/
+    }    
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    /*border: 2px solid orange;*/
+    align-items: center;
+    }
+
+.headline-left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.headline-intro {
+    /*border: 2px solid orange;*/
+    justify-content: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+}    
+
+.instabutton {
+    width: fit-content;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffe78d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    color: #807267;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.instabutton:hover {
+    opacity: 0.6;
+}
+
+.instabuttonlink:link {
+    text-decoration: none;
+    color: #807267;
+}
+
+.instabuttonlink:visited {
+    text-decoration: none;
+    color: #807267;
+}
+
+.headline-right {
+    justify-content: flex-end;
+}
+
+.toplifehacks {
+    align-self: center;
+    
+}
+
+.hacklist {
+    display: flex;
+    justify-content: space-around;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+figcaption {
+    align-self: flex-start;
+    text-align: center;
+    font-size: 80%;
+    width: 10vw;
+}
+
+.hackimage {
+    width: 200px;
+    border-radius: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.quotetext {
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quoteauthor {
+    padding-top: 15px;
+    text-align: right;
+    font-size: 24px;
+}
+
+.pagelogo {
+    border-radius: 0%;
+    width: 200px;
+    height:auto;
+}
+
+ul {
+    margin: 0px;
+}
+
+.header-a:link {
+    text-decoration: none;
+    color: #807267;
+}
+
+.header-a:visited {
+    text-decoration: none;
+    color: #807267;
+}
+
+.header-a:hover {
+    text-decoration: underline;
+    color: #ffe78d;
+}
+
+.header-a:active {
+    text-decoration: underline;
+}
